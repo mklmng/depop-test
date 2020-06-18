@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+.top-bar{
+  background: #FFF;
+  padding: 2rem 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-wrapper{
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.like-button{
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #ccc;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
+  z-index: 2;
 }
 
-.App-link {
-  color: #61dafb;
+.liked{
+  background: #28a745;
+  color: #FFFF;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-liked{
+  padding: 0.5rem;
+}
+
+#product-area{
+  background: #ccc;
+  padding-top: 2rem;
+}
+
+body .card-body{
+  max-height: 100%; 
+  min-height: 13.5rem;
+}
+
+.card.mb-4{
+  position: relative;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.align-center-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center
+}
+
+.resulsts h2{
+  margin: 0;
+  padding: 0;
+}
+
+.card.mb-4::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 0;
+  transition: border .5s ease-in;
+  border-left: 0 solid transparent;
+}
+
+.sold{
+  position: relative;
+  background: rgba(0,0,0,.5);
+}
+
+.sold::before{
+  display: block;
+  content: 'SOLD';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  text-align: center;
+  z-index: 1;
+}
+
+.sold::after{
+  display: block;
+  content: '';
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.card-text{
+  text-align: left;
+}
+.bold{
+  font-weight: bold;
+}
+.product-description{
+  height: 150px;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+}
+
+body .btn-outline-secondary{
+  background: #000;
+  color: #FFF;
+}
+body .btn-outline-secondary.btn-like{
+  background: #28a745;
+}
+body .liked .btn-outline-secondary.btn-like{
+  background: #F00;
 }
