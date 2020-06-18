@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/depop-test/static/css/main.760631ee.chunk.css",
+    "main.js": "/depop-test/static/js/main.99ab5635.chunk.js",
+    "main.js.map": "/depop-test/static/js/main.99ab5635.chunk.js.map",
+    "runtime-main.js": "/depop-test/static/js/runtime-main.1a3093f5.js",
+    "runtime-main.js.map": "/depop-test/static/js/runtime-main.1a3093f5.js.map",
+    "static/js/2.e3f25ab8.chunk.js": "/depop-test/static/js/2.e3f25ab8.chunk.js",
+    "static/js/2.e3f25ab8.chunk.js.map": "/depop-test/static/js/2.e3f25ab8.chunk.js.map",
+    "index.html": "/depop-test/index.html",
+    "precache-manifest.5634a711232ef2e0f4d4cb51cc8bf462.js": "/depop-test/precache-manifest.5634a711232ef2e0f4d4cb51cc8bf462.js",
+    "service-worker.js": "/depop-test/service-worker.js",
+    "static/css/main.760631ee.chunk.css.map": "/depop-test/static/css/main.760631ee.chunk.css.map",
+    "static/js/2.e3f25ab8.chunk.js.LICENSE.txt": "/depop-test/static/js/2.e3f25ab8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a3093f5.js",
+    "static/js/2.e3f25ab8.chunk.js",
+    "static/css/main.760631ee.chunk.css",
+    "static/js/main.99ab5635.chunk.js"
+  ]
+}
