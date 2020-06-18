@@ -85,7 +85,7 @@ render(){
                   className="btn btn-sm btn-outline-secondary"                 
                   onClick={() => this.toggleSold()}
                 >
-                {this.state.showSold ? 'Hide sold items' : 'Show sold items'}  
+                {this.state.showSold ? 'Hide Sold Items' : 'Show Sold Items'}  
                 </button>
             </div>
           </div>
