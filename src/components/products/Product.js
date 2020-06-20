@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Icon from './Icon';
 import PropTypes from 'prop-types'
 
 export class Product extends Component {
@@ -20,9 +21,12 @@ export class Product extends Component {
         <div className="col-md-3">
             <div className="card mb-4 box-shadow">
                 <div className={`image-wrapper ${sold && "sold"}`}>
-                    <div className={`like-button ${liked && "liked"}`} onClick={() => handleLike(id)}>
-                        <span>{`${liked ? 'Unlike' : 'Like'}`}</span>
-                    </div>
+                        <Icon 
+                            id={id}
+                            liked={liked}
+                            handleLike={handleLike}    
+                        />
+                        {/* <span>{`${liked ? 'Unlike' : 'Like'}`}</span> */}
                     <img className="card-img-top" src={img} alt={title} />
                 </div>
                 <div className="card-body">
