@@ -21,12 +21,11 @@ export class Product extends Component {
         <div className="col-md-3">
             <div className="card mb-4 box-shadow">
                 <div className={`image-wrapper ${sold && "sold"}`}>
-                        <Icon 
-                            id={id}
-                            liked={liked}
-                            handleLike={handleLike}    
-                        />
-                        {/* <span>{`${liked ? 'Unlike' : 'Like'}`}</span> */}
+                    <Icon 
+                        id={id}
+                        liked={liked}
+                        handleLike={handleLike}    
+                    />
                     <img className="card-img-top" src={img} alt={title} />
                 </div>
                 <div className="card-body">
