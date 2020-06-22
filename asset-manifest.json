@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/depop-test/static/css/main.e72bd7b4.chunk.css",
-    "main.js": "/depop-test/static/js/main.95a9cc95.chunk.js",
-    "main.js.map": "/depop-test/static/js/main.95a9cc95.chunk.js.map",
+    "main.css": "/depop-test/static/css/main.4278a62f.chunk.css",
+    "main.js": "/depop-test/static/js/main.7f7c1dc4.chunk.js",
+    "main.js.map": "/depop-test/static/js/main.7f7c1dc4.chunk.js.map",
     "runtime-main.js": "/depop-test/static/js/runtime-main.1a3093f5.js",
     "runtime-main.js.map": "/depop-test/static/js/runtime-main.1a3093f5.js.map",
     "static/js/2.e3f25ab8.chunk.js": "/depop-test/static/js/2.e3f25ab8.chunk.js",
     "static/js/2.e3f25ab8.chunk.js.map": "/depop-test/static/js/2.e3f25ab8.chunk.js.map",
     "index.html": "/depop-test/index.html",
-    "precache-manifest.c0b5cee8fd92d32a35f8a4ad4d5f77dc.js": "/depop-test/precache-manifest.c0b5cee8fd92d32a35f8a4ad4d5f77dc.js",
+    "precache-manifest.7e5913a5637dfa0e23edef20283101ec.js": "/depop-test/precache-manifest.7e5913a5637dfa0e23edef20283101ec.js",
     "service-worker.js": "/depop-test/service-worker.js",
-    "static/css/main.e72bd7b4.chunk.css.map": "/depop-test/static/css/main.e72bd7b4.chunk.css.map",
+    "static/css/main.4278a62f.chunk.css.map": "/depop-test/static/css/main.4278a62f.chunk.css.map",
     "static/js/2.e3f25ab8.chunk.js.LICENSE.txt": "/depop-test/static/js/2.e3f25ab8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1a3093f5.js",
     "static/js/2.e3f25ab8.chunk.js",
-    "static/css/main.e72bd7b4.chunk.css",
-    "static/js/main.95a9cc95.chunk.js"
+    "static/css/main.4278a62f.chunk.css",
+    "static/js/main.7f7c1dc4.chunk.js"
   ]
 }
