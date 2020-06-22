@@ -20,7 +20,7 @@ export class Product extends Component {
         return (
         <div className="col-md-3">
             <div className="card mb-4 box-shadow">
-                <div className={`image-wrapper ${sold && "sold"}`}>
+                <div className={`image-wrapper ${sold ? "sold" : ""}`}>
                     <Icon 
                         id={id}
                         liked={liked}
